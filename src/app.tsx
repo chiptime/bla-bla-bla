@@ -22,8 +22,8 @@ export function App() {
           clearInterval(timer);
           return 0;
         }
-        return 0;
-        // return rest;
+        // return 0;
+        return rest;
       });
     }, 1000);
   }, []);
@@ -180,7 +180,7 @@ export function App() {
 
                   <div style="display:flex; flex-flow:row; justify-content:space-around; margin-top:1rem;">
                     <div style="background-color: green; border-radius: 1rem; padding: 1rem;">
-                      <p style="font-size: 2rem; margin: 0 1rem;" onClick={(e) => {
+                      <p style="font-size: 2rem; margin: 0 0.5rem;" onClick={(e) => {
                         e.stopPropagation();
                         e.preventDefault();
 
