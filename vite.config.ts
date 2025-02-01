@@ -4,6 +4,7 @@ import path from 'node:path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'https://chiptime.github.io/pre-san-valentin', // Link page
   plugins: [preact()],
 	resolve: {
 		alias: {
