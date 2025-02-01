@@ -143,7 +143,7 @@ export function App() {
 
             {/* <div style="background-color: red; border-radius: 1rem; padding: 1rem; display:none;" id="noButton"> */}
             <div style="background-color: red; border-radius: 1rem; padding: 1rem; position:absolute; display:none;" id="noButton">
-              <p style="font-size: 3rem" onClick={(e) => {
+              <p style="font-size: 2rem" onClick={(e) => {
                 e.stopPropagation();
                 e.preventDefault();
 
@@ -160,7 +160,7 @@ export function App() {
             </div>
             {
               time
-                ? <div style="font-size: 3rem">
+                ? <div style="font-size: 2rem">
 
 
                   <p>
@@ -174,13 +174,13 @@ export function App() {
                   </p>
                 </div>
                 : <div>
-                  <p style="font-size: 3rem">
-                    ¿Quieres ser mi San Valentin?
+                  <p style="font-size: 2rem">
+                    ¿Quieres ser mi <p>San Valentin?</p>
                   </p>
 
                   <div style="display:flex; flex-flow:row; justify-content:space-around; margin-top:1rem;">
                     <div style="background-color: green; border-radius: 1rem; padding: 1rem;">
-                      <p style="font-size: 3rem; margin: 0 1rem;" onClick={(e) => {
+                      <p style="font-size: 2rem; margin: 0 1rem;" onClick={(e) => {
                         e.stopPropagation();
                         e.preventDefault();
 
@@ -192,7 +192,7 @@ export function App() {
                       }}>Sí</p>
                     </div>
                     <div style="background-color: red; border-radius: 1rem; padding: 1rem;" id="originalNoButton">
-                      <p style="font-size: 3rem" onClick={(e) => {
+                      <p style="font-size: 2rem" onClick={(e) => {
                         e.stopPropagation();
                         e.preventDefault();
 
@@ -210,7 +210,7 @@ export function App() {
             }
           </div >
           : <div style="width: 100vw; max-width:100vw; height: 100vh; max-height: 100vh; position: absolute; display:flex; justify-content:center; align-items: center">
-            <div style="font-size: 3rem">
+            <div style="font-size: 2rem">
 
 
               <p>
