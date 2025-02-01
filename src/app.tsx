@@ -13,7 +13,7 @@ export function App() {
   useEffect(() => {
     let timer = setInterval(() => {
       setTime((time) => {
-        const endDate = new Date('02/01/2025 19:55');
+        const endDate = new Date('02/01/2025 19:59');
         const now = new Date();
         const rest = (endDate.getTime() - now.getTime()) / 1000;
         console.log(rest);
